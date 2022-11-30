@@ -1,0 +1,16 @@
+.logo {
+	font-family: "Raleway", Verdana, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: calc(31 / 26);
+	color: var(--logo-primary-color);
+}
+
+.logo__part {
+	margin-right: 93px;
+}
+
+.logo__part--accent {
+	color: var(--accent-color);
+}

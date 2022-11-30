@@ -1,0 +1,45 @@
+.address {
+	margin-top: 20px;
+}
+
+.address__text {
+	display: inline-block;
+
+	margin-bottom: 9px;
+
+	font-family: inherit;
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	font-style: normal;
+	color: var(--primary-white-color);
+
+	transition: var(--animation-color);
+}
+
+.address__text:hover,
+.address__text:focus {
+	color: var(--accent-color);
+}
+
+.address__list {
+	display: inline-block;
+
+	margin-bottom: 9px;
+
+	font-family: inherit;
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	font-style: normal;
+	color: var(--address-list-color);
+
+	transition: var(--animation-color);
+
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
+}
+
+.address__tel {
+	margin-bottom: 0px;
+}

@@ -1,0 +1,58 @@
+// team section
+
+.socials {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.socials__link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background-color: var(--primary-white-color);
+	color: var(--socials__icon-primary-color);
+	// /* outline: 2px solid red;
+	// outline-offset: -2px; */
+
+	transition: var(--animation-bcg);
+
+	&:hover,
+	&:focus {
+		color: var(--primary-white-color);
+		background-color: var(--accent-color);
+	}
+}
+
+.socials__icon {
+	fill: currentColor;
+
+	transition: var(--animation-color);
+}
+
+// join section
+
+.socials__link--color {
+	background-color: rgba(255, 255, 255, 0.1);
+	color: var(--primary-white-color);
+	// /* outline: 2px solid red;
+	// outline-offset: -2px; */
+
+	transition: var(--animation-bcg);
+}
+
+.socials__icon--color {
+	fill: currentColor;
+
+	transition: var(--animation-color);
+}
+
+// .socials__link:hover,
+// .socials__link:focus {
+// 	color: var(--primary-white-color);
+// 	background-color: var(--accent-color);
+// }
