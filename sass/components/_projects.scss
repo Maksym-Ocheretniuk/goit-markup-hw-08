@@ -1,5 +1,10 @@
 .projects {
 	padding-top: 0;
+
+	// desctop screen
+	@media screen and (max-width: 1199px) {
+		display: none;
+	}
 }
 
 .projects__list {

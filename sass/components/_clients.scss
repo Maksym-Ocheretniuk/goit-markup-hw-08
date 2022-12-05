@@ -3,13 +3,14 @@
 	align-items: center;
 	justify-content: center;
 	gap: 30px;
+	flex-wrap: wrap;
 }
 
 .clients__link {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 170px;
+	width: 210px;
 	height: 92px;
 	border: 1px solid var(--socials__icon-primary-color);
 	border-radius: 4px;
@@ -17,6 +18,16 @@
 	color: var(--socials__icon-primary-color);
 
 	transition: var(--animation-bcg);
+
+	// tablet screen
+	@media screen and (min-width: 768px) {
+		width: 226px;
+	}
+
+	// desctop screen
+	@media screen and (min-width: 1200px) {
+		width: 170px;
+	}
 
 	&:hover,
 	&:focus {
