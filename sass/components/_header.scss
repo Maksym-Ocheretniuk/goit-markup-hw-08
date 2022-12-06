@@ -5,4 +5,11 @@
 .header__container {
 	display: flex;
 	align-items: center;
+	min-height: 60px;
+	justify-content: space-between;
+
+	// tablet screen
+	// @media screen and (max-width: 767px) {
+	// 	justify-content: space-between;
+	// }
 }
