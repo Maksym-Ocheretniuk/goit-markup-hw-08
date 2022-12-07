@@ -37,6 +37,7 @@ body {
   font-family: "Roboto", Verdana, sans-serif;
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
+  overflow-x: hidden;
 }
 
 .section__title {
@@ -814,7 +815,7 @@ img {
 .subscribe__field {
   width: 450px;
   height: 50px;
-  padding-left: 16px;
+  padding: 15px 16px;
   outline: unset;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -918,11 +919,28 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   gap: 8px;
-  margin-bottom: 50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 767px) {
+  .portfolio__filters {
+    width: 330px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .portfolio__filters {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio__filters {
+    margin-bottom: 50px;
+  }
 }
 
 .portfolio__btn {
