@@ -1,5 +1,5 @@
 .join {
-	margin-right: 93px;
+	text-align: center;
 }
 
 .join__title {
@@ -8,7 +8,11 @@
 	line-height: calc(16 / 14);
 	text-transform: uppercase;
 
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 
 	color: var(--primary-white-color);
 }
+
+// .join {
+// 	margin-right: 93px;
+// }

@@ -1,6 +1,14 @@
 .logo__footer {
+	display: block;
+
 	color: var(--primary-white-color);
-	// /* margin-bottom: 20px; */
+
+	margin-bottom: 28px;
+
+	// desctop screen
+	@media screen and (max-width: 1199px) {
+		text-align: center;
+	}
 }
 
 .logo__part--accent {

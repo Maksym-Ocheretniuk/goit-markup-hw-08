@@ -7,9 +7,70 @@
 
 .footer__container {
 	display: flex;
-	align-items: baseline;
+	flex-direction: column;
+	gap: 60px;
+
+	// desctop screen
+	@media screen and (min-width: 1200px) {
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 0px;
+	}
 }
 
 .footer__owner {
-	margin-right: 90px;
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+
+	// tablet screen
+	@media screen and (min-width: 768px) {
+		flex-direction: row;
+		align-items: baseline;
+		justify-content: space-between;
+
+		padding-left: 76px;
+		padding-right: 89px;
+	}
+
+	// desctop screen
+	@media screen and (min-width: 1200px) {
+		padding-right: 0px;
+		padding-left: 0px;
+		justify-content: flex-start;
+		gap: 70px;
+	}
 }
+
+// .footer {
+// 	padding-top: 60px;
+// 	padding-bottom: 60px;
+
+// 	background: var(--hero-footer-bcg);
+// }
+
+// .footer__container {
+// display: block;
+// align-items: baseline;
+
+// mobile screen
+// @media screen and (min-width: 480px) {
+// 	width: 480px;
+// }
+
+// // tablet screen
+// @media screen and (min-width: 768px) {
+// 	display: flex;
+// 	flex-wrap: wrap;
+// }
+
+// // desctop screen
+// @media screen and (min-width: 1200px) {
+// 	display: flex;
+// 	align-items: baseline;
+// }
+// }
+
+// .footer__owner {
+// 	margin-right: 90px;
+// }
