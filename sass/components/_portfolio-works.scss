@@ -2,7 +2,8 @@
 	display: flex;
 	// flex-direction: column;
 	gap: 30px;
-	align-items: center;
+	// align-items: center;
+	align-items: stretch;
 	justify-content: center;
 	flex-wrap: wrap;
 
@@ -28,6 +29,8 @@
 	background: var(--primary-white-color);
 
 	transition: var(--animation-box-shadow);
+
+	border: 1px solid var(--portfolio-box);
 
 	&:hover,
 	&:focus {
@@ -147,9 +150,9 @@
 	padding-bottom: 20px;
 	padding-left: 24px;
 
-	border-right: 1px solid var(--portfolio-box);
-	border-bottom: 1px solid var(--portfolio-box);
-	border-left: 1px solid var(--portfolio-box);
+	// border-right: 1px solid var(--portfolio-box);
+	// border-bottom: 1px solid var(--portfolio-box);
+	// border-left: 1px solid var(--portfolio-box);
 }
 
 // .work__caption {
