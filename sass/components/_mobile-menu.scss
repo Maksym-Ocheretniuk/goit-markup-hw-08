@@ -1,25 +1,3 @@
-// .menu {
-// 	display: flex;
-// 	padding: 0;
-// 	margin: 0;
-// 	list-style: none;
-
-// 	.link {
-// 		padding: 10px;
-// 		color: inherit;
-// 		text-decoration: none;
-// 	}
-
-// 	.link:hover,
-// 	.link:focus {
-// 		text-decoration: underline;
-// 	}
-
-// 	@media (max-width: 767px) {
-// 		display: none;
-// 	}
-// }
-
 .menu-toggle {
 	min-height: 40px;
 	min-width: 40px;
@@ -88,16 +66,3 @@
 		color: var(--primary-white-color);
 	}
 }
-
-// .mobile-menu {
-// 	padding: 0;
-// 	margin: 0;
-// 	list-style: none;
-// }
-
-// .mobile-menu .link {
-// 	display: block;
-// 	padding: 10px;
-// 	// color: #fff;
-// 	text-decoration: none;
-// }
